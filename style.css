@@ -1,0 +1,117 @@
+
+/* Reset*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+/* para todas as imagens*/
+body img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-top: 44px;
+}
+
+
+/* Container */
+#container {
+  max-width: 1120px;
+  margin: 60px;
+}
+
+/* descricao */
+#descricao {
+  margin-bottom: 60px;
+}
+
+#descricao p {
+  margin: 15px;
+  font-style: italic;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+h2 {
+  
+  font-size: 32px;
+  margin: 10px 0 10px 10px;
+}
+
+.p1 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-bottom: 10px;
+}
+
+.p2 {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+ul li{
+  list-style: none;
+}
+
+
+
+.parque {
+  font-weight: bold;
+}
+
+.c1 {
+  color: #591B98;
+  font-weight: bold;
+}
+.c2 {
+  color: #E5245E;
+  font-weight: bold;
+}
+.c3 {
+  font-weight: bold;
+  color: #E95E10;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: solid #D9D9D9;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+}
+
+
+/* mediaqueries */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 18px ;
+    margin: 10px 0;
+  }
+}
