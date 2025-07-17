@@ -21,7 +21,7 @@ body img {
 /* Container */
 #container {
   max-width: 1120px;
-  margin: 60px;
+  margin: 60px auto;
 }
 
 /* descricao */
